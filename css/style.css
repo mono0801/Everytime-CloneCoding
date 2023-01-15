@@ -1,0 +1,27 @@
+@import "reset.css";
+@import "./login.css";
+@import "./univlist.css";
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login__container {
+    width: 95%;
+    height: 30%;
+}
+
+#univList__container {
+    width: 100%;
+    height: 65%;
+}

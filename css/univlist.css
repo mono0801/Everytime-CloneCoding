@@ -1,0 +1,17 @@
+#univList__item {
+    width: 100%;
+
+    border-top: solid 1px rgba(1, 1, 1, 0.2);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#univList__item span {
+    margin: 15px 2.5%;
+}
+
+#univList__item :last-child {
+    opacity: 0.4;
+}
