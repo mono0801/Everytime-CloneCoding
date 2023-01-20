@@ -22,12 +22,14 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+
+    position: relative;
 }
 
 #univList__search__input input {
     width: 95%;
     height: 30px;
-    padding-left: 1.5%;
+    padding-left: 2%;
 
     background-color: rgb(242, 242, 242);
     border: 1px solid lightgrey;
@@ -35,12 +37,16 @@
 
 #search__icon {
     position: absolute;
-    right: 28.5%;
+    right: 8%;
     color: gray;
 }
 
 #univList__ul {
     overflow-y: auto;
+}
+
+#univList__ul :hover {
+    background-color: rgb(242, 242, 242);
 }
 
 #univList__item {
